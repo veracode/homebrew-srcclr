@@ -6,7 +6,7 @@ class Srcclr < Formula
   sha256 "03b93588a11ffdd4c1948c0f96e755374d3d3917be545cf6b36651d337c82e9e"
 
   def install
-  	inreplace "srcclr", "##PREFIX##", "#{prefix}"
+  	inreplace "brew/srcclr", "##PREFIX##", "#{prefix}"
 
   	prefix.install "srcclr-console.jar"
   	bin.install "brew/srcclr"
