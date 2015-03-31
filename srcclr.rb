@@ -6,7 +6,8 @@ class Srcclr < Formula
   sha256 "05625b71b8045b4c7a73243313a43843f2269d09151146abd6d7eeb7bc4a9b6b"
 
   def install
-  	bin.install_symlink Dir["#{libexec}/*"]
+  	prefix.install Dir["*"]
+#  	bin.install_symlink Dir["#{libexec}/*"]
 #    system "./configure", "--disable-debug", "--disable-dependency-tracking",
 #                          "--prefix=#{prefix}"
 #    system "make install"
