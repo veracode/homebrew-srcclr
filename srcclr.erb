@@ -7,7 +7,8 @@ class Srcclr < Formula
   sha1 "0c106974cb53d311091f71e58f5926509b69dee3"
 
   def install
-  	bin.install "srcclr-console.jar"
+#  	bin.install "srcclr-console.jar"
+  	bin.install_symlink Dir["#{libexec}/*"]
 #  	prefix.install_metafiles
 #  	libexec.install Dir["*"]
 #    system "./configure", "--disable-debug", "--disable-dependency-tracking",
