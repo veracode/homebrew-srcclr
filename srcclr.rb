@@ -2,8 +2,8 @@ require "formula"
 
 class Srcclr < Formula
   homepage "https://sourceclear.com"
-  url "https://download.sourceclear.com/console/srcclr-console-0.6.1-SNAPSHOT.zip"
-  sha1 "0c106974cb53d311091f71e58f5926509b69dee3"
+  url "https://download.sourceclear.com/console/srcclr-0.6.1.zip"
+  sha256 "05625b71b8045b4c7a73243313a43843f2269d09151146abd6d7eeb7bc4a9b6b"
 
   def install
   	bin.install_symlink Dir["#{libexec}/*"]
