@@ -7,7 +7,7 @@ class Srcclr < Formula
 
   def install
   	prefix.install Dir["*"]
-  	bin.install Dir["consonle.sh"]
+  	bin.install Dir["console.sh"]
 #  	bin.install_symlink Dir["#{libexec}/*"]
 #    system "./configure", "--disable-debug", "--disable-dependency-tracking",
 #                          "--prefix=#{prefix}"
