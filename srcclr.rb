@@ -3,7 +3,7 @@ require "formula"
 class Srcclr < Formula
   homepage "https://sourceclear.com"
   url "https://download.sourceclear.com/console/srcclr-0.6.1.zip"
-  sha256 "05625b71b8045b4c7a73243313a43843f2269d09151146abd6d7eeb7bc4a9b6b"
+  sha256 "9ef81de980b54ae1eebf745792e91a7165d5e77685de341d4763c52baa8f4e9e"
 
   def install
   	prefix.install "srcclr-console.jar"
