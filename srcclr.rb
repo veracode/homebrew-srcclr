@@ -8,7 +8,7 @@ class Srcclr < Formula
   def install
   	prefix.install "srcclr-console.jar"
 #  	bin.install "console.sh"
-  	bin.install_symlink Dir["console.sh"]
+  	bin.install_symlink "console.sh"
 #    system "./configure", "--disable-debug", "--disable-dependency-tracking",
 #                          "--prefix=#{prefix}"
 #    system "make install"
