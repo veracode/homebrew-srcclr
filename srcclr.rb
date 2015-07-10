@@ -2,8 +2,8 @@ require "formula"
 
 class Srcclr < Formula
   homepage "https://srcclr.com"
-  url "https://download.srcclr.com/console/srcclr-console-0.9.0.zip"
-  sha256 "72c1bfa93ae00531f7ebdd13a77c90cc5c3ac3c8095b15ef873820792c8950a7"
+  url "https://download.srcclr.com/console/srcclr-console-0.9.1.zip"
+  sha256 "1f88999172be9a3872d4ec86de3d7d6553633d19e033ccb0543f0620a94f6290"
 
   def install
   	inreplace "brew/srcclr", "##PREFIX##", "#{prefix}"
