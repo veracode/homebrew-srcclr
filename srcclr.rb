@@ -1,13 +1,20 @@
 require "formula"
 
 class Srcclr < Formula
+  desc "The Terminal interface to the SRC:CLR platform"
   homepage "https://srcclr.com"
-  url "https://download.srcclr.com/console/srcclr-console-0.13.1.zip"
-  sha256 "13ce6fdbae70a09e294c2b2230bafa4a127b85990c3bef39da725eefb8f2f069"
+  url "https://download.srcclr.com/console/srcclr-console-1.0.1.tgz"
+  sha256 "0f1f4ec16ab026746ef2cbc2c36b8b81b66d196cbad1f176d7a932a1666ecd28"
 
   def install
-  	inreplace "brew/srcclr", "##PREFIX##", "#{prefix}"
-  	prefix.install "srcclr-console.jar"
-  	bin.install "brew/srcclr"
+    inreplace "srcclr", "##PREFIX##", prefix
+    prefix.install "srcclr-console.jar"
+    bin.install "srcclr"
+    man1.install "usr/share/man/man1/srcclr.1"
+  end
+
+  def test
+    tar_version = "1.0.1+21a6d184.20151027"
+    assert_equal "Version: #{tar_version}", `srcclr --version`.strip
   end
 end
