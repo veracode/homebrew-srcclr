@@ -13,7 +13,7 @@ class Srcclr < Formula
     man1.install "usr/share/man/man1/srcclr.1"
   end
 
-  def test
+  test do
     tar_version = "1.0.1+21a6d184.20151027"
     assert_equal "Version: #{tar_version}", `srcclr --version`.strip
   end
