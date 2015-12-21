@@ -3,8 +3,8 @@ require "formula"
 class Srcclr < Formula
   desc "The Terminal interface to the SRC:CLR platform"
   homepage "https://srcclr.com"
-  url "https://download.srcclr.com/console/srcclr-console-1.0.9.tgz"
-  sha256 "84a80628633092ff668088589ecc5e36ba74d348ecf86a7384576632349f38b8"
+  url "https://download.srcclr.com/console/srcclr-console-1.1.2.tgz"
+  sha256 "06e929af405b73ff194bd64611568320d6da4eff2a6ec2063b821e5917a02e95"
 
   def install
     inreplace "srcclr", "##PREFIX##", prefix
