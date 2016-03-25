@@ -4,7 +4,7 @@ class Srcclr < Formula
   desc "The Terminal interface to the SRC:CLR platform"
   homepage "https://srcclr.com"
   url "https://download.srcclr.com/console/srcclr-console-1.2.6.tgz"
-  sha256 "a7fec80397bc066f1a36b1345906dfce3c8a267a4e07e99b3e0065e0d9288eaa"
+  sha256 "ed5a8f936e420ee92230d0988cbabd9822c2206b6db64e74aabd213a56ff175b"
 
   def install
     inreplace "srcclr", "##PREFIX##", prefix
