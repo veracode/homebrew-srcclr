@@ -3,7 +3,7 @@ require "formula"
 class Srcclr < Formula
   desc "The command-line interface to the SourceClear platform"
   homepage "https://srcclr.com"
-  url "https://download.srcclr.com/srcclr-2.0.1+alpha1.tgz"
+  url "https://download.srcclr.com/srcclr-2.0.2+alpha1.tgz"
   sha256  "26a82853d6bb4e9332a4da4c436edba2b5b3f023b3db477d5d1dafda1699f192"
 
   def install
