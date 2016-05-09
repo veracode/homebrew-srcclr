@@ -3,8 +3,8 @@ require "formula"
 class Srcclr < Formula
   desc "The command-line interface to the SourceClear platform"
   homepage "https://srcclr.com"
-  url "https://download.srcclr.com/srcclr-2.0.6.tgz"
-  sha256 "a546a15db4d3f504ceaba865e0bafcbde47f1d5a259945f0a1e0f9d68bf9c5e9"
+  url "https://download.srcclr.com/srcclr-2.0.7.tgz"
+  sha256 "312e2c2534d72ada8487c9c98592816cb6d9a062a4347f070171590b6b2d3ecc"
 
   def install
     bin.install "bin/srcclr"
