@@ -8,10 +8,11 @@ class Srcclr < Formula
 
   def install
     bin.install "bin/srcclr"
+    man1.install "share/man/man1/srcclr.1"
   end
 
   test do
-    tar_version = "2.0.2+alpha1.0d11c07d.30"
+    tar_version = "2.0.10+0d11c07d.30"
     assert_equal "Version: #{tar_version}", `srcclr --version`.strip
   end
 end
