@@ -12,7 +12,7 @@ class Srcclr < Formula
   end
 
   test do
-    tar_version = "2.0.10+0d11c07d.30"
+    tar_version = "2.0.10+8e41e772.39"
     assert_equal "Version: #{tar_version}", `srcclr --version`.strip
   end
 end
