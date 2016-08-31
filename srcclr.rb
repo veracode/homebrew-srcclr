@@ -2,8 +2,8 @@ require "formula"
 
 class Srcclr < Formula
   desc "The command-line interface to the SourceClear platform"
-  homepage "https://srcclr.com"
-  url "https://download.srcclr.com/srcclr-2.5.5-macosx.tgz"
+  homepage "https://www.sourceclear.com"
+  url "https://download.sourceclear.com/srcclr-2.5.5-macosx.tgz"
   sha256 "39b6b889071d352e910e233a7290a22b1a8d1fb674c59bd74dc0ebdb004180c3"
 
   def install
