@@ -3,8 +3,8 @@ require "formula"
 class Srcclr < Formula
   desc "The command-line interface to the SourceClear platform"
   homepage "https://www.sourceclear.com"
-  url "https://download.srcclr.com/srcclr-2.5.9-macosx.tgz"
-  sha256 "1d61fb357a989b3fb0333a4636047f2f712ea115f6f05aa6fe3402591f01ca5f"
+  url "https://download.srcclr.com/srcclr-2.5.11-macosx.tgz"
+  sha256 "07a4d617a4aecc711a8c256f3968923ee4008952aaa9db6248750363fcfb845d"
 
   def install
     libexec.install Dir["*"]
@@ -13,7 +13,7 @@ class Srcclr < Formula
   end
 
   test do
-    tar_version = "2.5.9"
+    tar_version = "2.5.11"
     assert_equal "Version: #{tar_version}", `srcclr --version`.strip
   end
 end
