@@ -4,7 +4,7 @@ class Srcclr < Formula
   desc "The command-line interface to the SourceClear platform"
   homepage "https://www.sourceclear.com"
   url "https://download.srcclr.com/srcclr-2.10.7-macosx.tgz"
-  sha256 "6210496b0ca59b6a69a8e81c821771ccf09237f424b3db4b1abd9e4ca430a89a"
+  sha256 "54a8f7af6431fb41a3c8ec9065fdfc0eefe2511ca35b0618b5cd34dc5f0d043d"
 
   def install
     libexec.install Dir["*"]
