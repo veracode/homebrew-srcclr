@@ -1,12 +1,12 @@
 require "formula"
 
 class Srcclr < Formula
-  VERSION = "2.10.12"
+  VERSION = "2.10.13"
 
   desc "The command-line interface to the SourceClear platform"
   homepage "https://www.sourceclear.com"
   url "https://download.srcclr.com/srcclr-#{VERSION}-macosx.tgz"
-  sha256 "abfec7c0c81ea3014bc4a07247ca5494f29f8421de26c76f7bdf85410137d9fd"
+  sha256 "56657648f475025d07a983da30e7413c3b0a2faec169cd3df01d8db89b203f2a"
 
   def install
     libexec.install Dir["*"]
