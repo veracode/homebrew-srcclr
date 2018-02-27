@@ -9,6 +9,7 @@ class Srcclr < Formula
   sha256 "6c71224e28ff350dccf31adcc72037a8f7e8390d8e9b7e42779a83d29aeff5f1"
 
   def install
+    prefix.install 'THIRD-PARTY.txt'
     libexec.install Dir["*"]
     bin.install_symlink libexec/"bin/srcclr"
     man1.install libexec/"share/man/man1/srcclr.1"
