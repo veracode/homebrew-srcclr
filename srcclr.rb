@@ -1,12 +1,12 @@
 require "formula"
 
 class Srcclr < Formula
-  VERSION = "3.5.4"
+  VERSION = "3.5.5"
 
   desc "The command-line interface to the SourceClear platform"
   homepage "https://www.sourceclear.com"
   url "https://download.srcclr.com/srcclr-#{VERSION}-macosx.tgz"
-  sha256 "383054bf39fd6d3a56e890822c95cb641dba26771b927fcb9b7d46d86adb75df"
+  sha256 "a87568e5659aa61855f7a6d2536dc11b9cb03b95e55d79485c0125a5c0237491"
 
   def install
     prefix.install 'THIRD-PARTY.txt'
