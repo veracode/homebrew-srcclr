@@ -6,7 +6,7 @@ class Srcclr < Formula
   desc "The command-line interface to the SourceClear platform"
   homepage "https://www.sourceclear.com"
   url "https://download.srcclr.com/srcclr-#{VERSION}-macosx.tgz"
-  sha256 "a6feed84c1be0ca73a9e9397692add2c68cee622e2f663f5bd0a8faedeab883b"
+  sha256 "6e1f071d20fd3ee820f7cb600fc350b902c2d1d2e3fa6f0548c5e6dcfa663f59"
 
   def install
     prefix.install 'THIRD-PARTY.txt'
