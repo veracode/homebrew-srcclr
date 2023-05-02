@@ -5,7 +5,7 @@ cask "srcclr" do
   url "https://download.srcclr.com/srcclr-#{version}-macosx.tgz",
       verified: "download.srcclr.com/"
   name "srcclr"
-  desc "Command-line interface to the SourceClear platform"
+  desc "Command-line interface to the Veracode SourceClear platform"
   homepage "https://www.sourceclear.com/"
 
   livecheck do
