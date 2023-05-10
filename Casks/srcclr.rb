@@ -14,4 +14,5 @@ cask "srcclr" do
   end
 
   binary "srcclr-#{version}/bin/srcclr"
+  manpage "srcclr-#{version}/share/man/man1/srcclr.1"
 end
