@@ -1,6 +1,6 @@
 cask "srcclr" do
-  version "3.8.121"
-  sha256 "5f08082357a4160534b6f6476b791427352023f20b5ed72d48b2d88f549f8735"
+  version "3.8.122"
+  sha256 "69af633830d36d098907877f14cd60dccf03659cca5147786a75be6b02f87fc9"
 
   url "https://download.srcclr.com/srcclr-#{version}-macosx.tgz"
   name "srcclr"
